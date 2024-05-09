@@ -1,28 +1,40 @@
 
 {
-    "name": "Allinonebot",
-    "description": "ALLINONEBOT",
-    "repository": "https://github.com/",
+    "name": "NtrRazYt",
+    "description": "『ᎷΔŞŦᏋᏒ』",
+    "repository": "https://github.com/NtrRaz",
     "keywords": [
         "telegram bot",
         "pyrogram"
     ],
     "env": {
             "API_ID": {
-            "description": "Your API_ID from https://my.telegram.org/apps",
-            "value": "27097807",
+            "description": "Your API_ID from https://my.telegram.org/apps #NtrRazYt",
+            "value": "",
             "required": true
         },
         "API_HASH": {
-            "description": "Your API_HASH from https://my.telegram.org/apps",       
-            "value": "9fd790a9cb1f639c921d941621d2959d",
+            "description": "Your API_HASH from https://my.telegram.org/apps #NtrRazYt",       
+            "value": "",
             "required": true
         },
         "BOT_TOKEN": {
-            "description": "Your Bot token from @Botfather",
-            "value": "6917084113:AAFOK37UIoEQLtY2HYu5UeF77cIF4BfGnwk",
+            "description": "Your Bot token from @Botfather #NtrRazYt",
+            "value": "",
             "required": true
         }
-    }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "https://github.com/amivin/aria2-heroku.git"
+        },
+        {
+            "url": "heroku/python"
+        },       
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ]
 
 }
